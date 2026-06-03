@@ -1,0 +1,1 @@
+{"profile":"offline-edge","requires":["local_logs","replay_manifest","checksum_manifest","governance_api","retention_policy"],"network_required":false}

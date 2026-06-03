@@ -1,0 +1,11 @@
+services:
+  hhi-governance-runtime:
+    build:
+      context: ../..
+      dockerfile: deployment/docker/Dockerfile
+    ports:
+      - "8090:8090"
+    environment:
+      - HHI_API_TOKEN=change-me
+    volumes:
+      - ../../runtime/logs:/app/runtime/logs

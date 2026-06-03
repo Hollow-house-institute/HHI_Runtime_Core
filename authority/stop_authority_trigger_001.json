@@ -1,0 +1,1 @@
+{"event_id":"evt-stop-001","timestamp":"2026-05-10T19:05:00Z","actor":"governance_runtime","decision_boundary":"STOP_AUTHORITY","behavioral_drift_score":91,"escalation_level":"CRITICAL","intervention_status":"HALTED","stop_authority":"TRIGGERED","action":"terminate_execution","outcome":"execution_stopped","runtime_source":"HHI_GOV_01"}
