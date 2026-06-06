@@ -132,3 +132,75 @@ Related Repositories
 - HHI_Local_AI_Governance_Framework
 - pcgc
 - Governance_Drift
+
+---
+
+# HHI Ecosystem
+
+HHI repositories are organized around a governance runtime architecture.
+
+```text
+Hollow_House_Standards_Library
+        ↓
+    Authority
+
+HHI_Runtime_Core
+        ↓
+    Runtime
+
+HHI_GOV_01
+        ↓
+    Enforcement
+
+pcgc
+        ↓
+    Governance Compilation
+
+Governance_Drift
+        ↓
+    Demonstration / EducationUse this as a single block:
+Bash
+cat >> README.md <<'EOF'
+
+---
+
+# HHI Ecosystem
+
+HHI repositories are organized around a governance runtime architecture.
+
+```text
+Hollow_House_Standards_Library
+        ↓
+    Authority
+
+HHI_Runtime_Core
+        ↓
+    Runtime
+
+HHI_GOV_01
+        ↓
+    Enforcement
+
+pcgc
+        ↓
+    Governance Compilation
+
+Governance_Drift
+        ↓
+    Demonstration / Education
+Repository Roles
+Hollow_House_Standards_Library
+Canonical terminology, standards mappings, governance doctrine, ontology authority, and interoperability references.
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library⁠�
+HHI_Runtime_Core
+Canonical governance runtime distribution containing telemetry continuity, replay validation, control plane services, assurance services, deployment assets, and runtime infrastructure.
+https://github.com/Hollow-house-institute/HHI_Runtime_Core⁠�
+HHI_GOV_01
+Execution-time governance enforcement runtime providing intervention orchestration, stop authority enforcement, governance APIs, telemetry persistence, and replayable evidence generation.
+https://github.com/Hollow-house-institute/HHI_GOV_01⁠�
+pcgc
+Proof-Carrying Governance Compiler providing governance compilation, verification, invariant enforcement, and replay-capable governance artifacts.
+https://github.com/Hollow-house-institute/pcgc⁠�
+Governance_Drift
+Interactive governance simulation demonstrating behavioral drift, governance telemetry, replayability, continuity, escalation, and stop authority concepts.
+https://github.com/Hollow-house-institute/Governance_Drift⁠�
