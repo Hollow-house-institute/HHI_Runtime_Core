@@ -1,0 +1,15 @@
+{
+  "runtime_states": [
+    "INITIALIZING",
+    "ACTIVE",
+    "DEGRADED",
+    "REPLAY_RECOVERY",
+    "STOP_AUTHORITY_TRIGGERED",
+    "ISOLATED_MODE",
+    "EXPORT_LOCK",
+    "ARCHIVE_STATE"
+  ],
+  "canonical_runtime": "HHI_Runtime_Core",
+  "state_transition_policy": "append_only",
+  "continuity_validation": "required"
+}

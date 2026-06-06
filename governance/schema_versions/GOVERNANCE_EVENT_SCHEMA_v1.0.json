@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "runtime_source": "HHI_Runtime_Core",
+  "required_fields": [
+    "event_id",
+    "timestamp",
+    "actor",
+    "system",
+    "session_id",
+    "trace_id",
+    "decision_boundary",
+    "behavioral_drift_score",
+    "escalation_level",
+    "intervention_status",
+    "stop_authority",
+    "action",
+    "outcome",
+    "evidence_hash",
+    "runtime_source"
+  ],
+  "event_bus_policy": {
+    "append_only": true,
+    "replayable": true,
+    "checksum_bound": true,
+    "machine_readable": true,
+    "siem_compatible": true
+  }
+}

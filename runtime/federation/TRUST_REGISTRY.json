@@ -1,0 +1,10 @@
+{
+  "registry_type": "runtime_trust_registry",
+  "trusted_runtimes": [
+    {
+      "runtime_id": "HHI_Runtime_Core",
+      "trust_level": "canonical",
+      "status": "ACTIVE"
+    }
+  ]
+}

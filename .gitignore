@@ -1,0 +1,17 @@
+runtime/logs/
+runtime/pids/
+runtime/alerts/
+runtime/telemetry/
+runtime/checksums/
+assurance/reports/
+exports/
+
+__pycache__/
+*.pyc
+
+# Continuity evidence
+runtime/continuity/*.jsonl
+runtime/recovery/*.jsonl
+
+# Observability outputs
+runtime/observability/*.log

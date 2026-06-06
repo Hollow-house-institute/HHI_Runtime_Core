@@ -1,0 +1,10 @@
+{
+  "runtime_id": "HHI_Runtime_Core",
+  "runtime_class": "governance_runtime",
+  "authority_level": "canonical",
+  "status": "ACTIVE",
+  "federation_ready": true,
+  "control_plane_managed": true,
+  "telemetry_authority": true,
+  "replay_authority": true
+}

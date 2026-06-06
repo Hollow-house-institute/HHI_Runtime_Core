@@ -1,0 +1,16 @@
+{
+  "registered_runtimes": [
+    {
+      "runtime_id": "HHI_Runtime_Core",
+      "status": "ACTIVE",
+      "telemetry": "CONNECTED",
+      "replay": "CONNECTED",
+      "assurance": "CONNECTED",
+      "transport": [
+        "ndjson",
+        "opentelemetry",
+        "siem"
+      ]
+    }
+  ]
+}

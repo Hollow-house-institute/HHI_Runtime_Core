@@ -1,0 +1,17 @@
+{
+  "event_id": "",
+  "timestamp": "",
+  "actor": "",
+  "system": "HHI_Runtime_Core",
+  "session_id": "",
+  "trace_id": "",
+  "decision_boundary": "",
+  "behavioral_drift_score": "",
+  "escalation_level": "",
+  "intervention_status": "",
+  "stop_authority": "",
+  "action": "",
+  "outcome": "",
+  "evidence_hash": "",
+  "runtime_source": ""
+}

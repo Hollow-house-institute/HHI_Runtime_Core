@@ -1,0 +1,12 @@
+{
+  "capabilities": [
+    "governance_event_bus",
+    "append_only_telemetry",
+    "replay_validation",
+    "continuous_assurance",
+    "governance_observability",
+    "control_plane",
+    "opentelemetry_export",
+    "siem_export"
+  ]
+}

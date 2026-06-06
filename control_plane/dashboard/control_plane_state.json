@@ -1,0 +1,11 @@
+{
+  "control_plane": "HHI_Governance_Control_Plane",
+  "runtime_source": "HHI_Runtime_Core",
+  "governance_state": "ACTIVE",
+  "telemetry_status": "ACTIVE",
+  "replay_status": "ACTIVE",
+  "assurance_status": "ACTIVE",
+  "interoperability_status": "ACTIVE",
+  "fleet_visibility": "INITIALIZED",
+  "federation_status": "PENDING"
+}

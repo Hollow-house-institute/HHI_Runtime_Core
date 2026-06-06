@@ -1,0 +1,29 @@
+{
+  "runtime_name": "HHI_Runtime_Core",
+  "runtime_role": "canonical_governance_runtime",
+  "telemetry_authority": [
+    "runtime/telemetry/append_only",
+    "runtime/logs"
+  ],
+  "core_services": [
+    "governance_event_writer",
+    "runtime_api",
+    "continuous_assurance",
+    "replay_validator",
+    "runtime_heartbeat"
+  ],
+  "continuity_requirements": [
+    "append_only_telemetry",
+    "checksum_validation",
+    "replay_survivability",
+    "stop_authority_enforcement",
+    "portable_exports"
+  ],
+  "deployment_targets": [
+    "termux",
+    "docker",
+    "docker-compose",
+    "kubernetes",
+    "offline_edge"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "runtime_id": "HHI_Runtime_Core",
+  "manifest_version": "1.0",
+  "authority_level": "canonical",
+  "control_plane_managed": true,
+  "federation_ready": true,
+  "telemetry_authority": true,
+  "replay_authority": true,
+  "capabilities_manifest": "../identity/capabilities.json",
+  "identity_manifest": "../identity/runtime_identity.json"
+}

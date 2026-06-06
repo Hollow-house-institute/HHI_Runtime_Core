@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  hhi_runtime_core:
+    image: python:3.12-slim
+    container_name: hhi_runtime_core
+    working_dir: /runtime
+    volumes:
+      - ../../:/runtime
+    command: >
+      bash -c "
+      python3 scripts/governance_event_writer.py &&
+      bash scripts/runtime_heartbeat.sh
+      "
+    restart: unless-stopped
