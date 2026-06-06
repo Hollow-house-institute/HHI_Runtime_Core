@@ -1,0 +1,16 @@
+{
+  "version": "GMS-01",
+  "weights": {
+    "structure": 0.15,
+    "rhythm": 0.15,
+    "signal": 0.20,
+    "drift": 0.20,
+    "assurance": 0.15,
+    "control": 0.15
+  },
+  "thresholds": {
+    "compliant": 0.75,
+    "monitored": 0.50,
+    "escalated": 0.30
+  }
+}
